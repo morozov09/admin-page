@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.a-items {
+    align-items: center;
+}
+
+.j-cont {
+    justify-content: space-between;
+}
+
+.j-cont-center {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+header {
+    padding: 40px;
+    background-color: lightgray;
+}
+
+.studio__section {
+    width: 100% !important;
+    color: white !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    min-height: 50vh !important;
+}
+
+body > section > div > p {
+    font-size: 28px;
+    margin-top: 25%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.service__item {
+    max-width: 300px;
+    transition: all .2s ease-in;
+}
+
+.service__item img {
+    width: 100%;
+    
+}
+
+.service__item:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h4 {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container-items {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.items__section {
+    margin-bottom: 100px;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+.leftside {
+    width: 48%;
+}
+
+.rightside {
+    width: 48%;
+}
+
+.leftside img {
+    width: 100%;
+}
+
+footer {
+    min-height: 100px;
+    background-color: black;
+}
+
+.footer__city {
+    font-size: 28px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.admin_h1 {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+}
+
+footer .container a {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.form__input {
+    outline: none;
+    appearance: none;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.welcome__div {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+
